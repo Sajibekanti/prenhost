@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sajibe/public_html/new
+    - /bin/cp -R * $DEPLOYPATH
